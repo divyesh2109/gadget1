@@ -1,0 +1,88 @@
+.btn-light-blue{
+  background-color: #bfceff;
+  border-radius: 30px;
+  border-color: #bfceff;
+  padding: 7px 30px;
+  font-size: 18px;
+}
+
+.btn-orange{
+  background-color: #ff8a73;
+  border: #ff8a73;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+.btn-orange:hover{
+  background-color: #ff8a73;
+  box-shadow: 0 6px 16px 0 #ff8a73;
+}
+
+.btn-blue{
+  background-color: #5580ff;
+  border: #5580ff;
+  color: white;
+  border-radius: 30px;
+  margin-left: 10px;
+  padding: 10px 35px;
+  cursor: pointer;
+}
+
+.btn-blue:hover{
+  background-color: #5580ff;
+  box-shadow: 0 6px 16px 0 #5580ff;
+}
+
+.all-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-image{
+  width: 50%;
+  bottom: 0;
+  left: 50%;
+  transform: translate(50% , 3%);
+  border-radius: 10px;
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+}
+
+.img-shadow{
+  box-shadow: 0 10px 55px 5px rgba(137, 173, 255, 0.35);
+  border-radius: 10px;
+}
+
+.cardSection{
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+.section{
+  overflow: hidden;
+}
+
+.mobile-img{
+  left: 23%;
+  top: 18%;
+  animation: line 3s ease-in-out infinite;
+}
+
+@keyframes line {
+  from {
+    transform: translateY(4px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  to {
+    transform: translateY(4px);
+  }
+} 
+
+h4{
+  color: #57468b;
+}
