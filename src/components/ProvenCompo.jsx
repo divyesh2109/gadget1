@@ -31,7 +31,7 @@ export default function ProvenCompo() {
                             <button className='btn btn-blue'>Read More</button>
                         </Col>
                         <Col md={8} className='d-flex justify-content-end position-relative'>
-                            <img src={proven} alt='images' className='img-shadow ' width={500} height={300} />
+                            <img src={proven} alt='images' className='img-shadow ' width={500} height={350} />
                             <img src={mobile} alt='images' className='img-shadow position-absolute mobile-img' width={280} height={350} />
                         </Col>
                     </Row>

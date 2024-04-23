@@ -86,3 +86,19 @@
 h4{
   color: #57468b;
 }
+
+.w-100{
+  width: 100%;
+}
+
+.card-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+.backg-slider{
+  background-image: url(../src/images/backgroundslider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}

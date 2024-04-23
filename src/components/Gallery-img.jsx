@@ -14,28 +14,28 @@ export default function gallery() {
         <Container fluid>
             <Row className='d-flex'>
                 <Col md={3} className='p-0'>
-                    <Image src={g1} width={340} height={335} />
+                    <Image src={g1} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g2} width={340} height={335} />
+                    <Image src={g2} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g3} width={340} height={335} />
+                    <Image src={g3} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g4} width={340} height={335} />
+                    <Image src={g4} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g5} width={340} height={335} />
+                    <Image src={g5} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g6} width={340} height={335} />
+                    <Image src={g6} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g7} width={340} height={335} />
+                    <Image src={g7} className="w-100" />
                 </Col>
                 <Col md={3} className='p-0'>
-                    <Image src={g8} width={340} height={335} />
+                    <Image src={g8} className="w-100" />
                 </Col>
             </Row>
         </Container>

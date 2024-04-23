@@ -6,7 +6,7 @@ import ProvenCompo from './ProvenCompo';
 import Gallery from './Gallery-img';
 import Card2 from './Card2';
 import Coutdown from './Coutdown';
-// import Slider from './Slider';
+import Slider from './Slider';
 import Innovative from './Innovative';
 import Faq from './Faq';
 
@@ -25,7 +25,7 @@ export default function MainCompo() {
 
             <Coutdown />
 
-            {/* <Slider /> */}
+            <Slider />
 
             <Innovative />
 
